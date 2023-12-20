@@ -1,4 +1,4 @@
-Tipo de referencia, url
-Sitio GIT,https://git-scm.com/
-Libro,https://git-scm.com/book/es/v2
-
+Tipo de referencia, titulo, url
+Sitio GIT,GIT,https://git-scm.com/
+Libro,Libro GIT,https://git-scm.com/book/es/v2
+Pagina IBM,Tipos de archivos,https://www.ibm.com/docs/es/aix/7.1?topic=files-types

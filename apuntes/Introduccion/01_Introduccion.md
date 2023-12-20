@@ -1,11 +1,25 @@
 # **Git y GitHub**
 
-[0. Instalación](#0-instalación-y-documentación-de-git)  
-[1. Introduccion](#1-introducción)  
-[2. Primeros pasos](#2-primeros-pasos-en-git)  
-[Kahoots](#link-kahoots)
+### **Indice**
 
-## **0. Instalación y documentación de Git**
+[0. Objetivos](#objetivos)  
+[1. Instalación](#1-instalación-y-documentación-de-git)  
+[2. Introduccion](#2-introducción)  
+[3. Referencias](#referencias) 
+
+### **Objetivos**
+
+- Aprenderás a gestionar las versiones de un proyecto de software a través de los comandos esenciales de git.
+- Podrás alojar tu repositorio local en GitHub
+- Conocerás los comandos esenciales para el trabajado colaborativo en GitHub
+
+En este curso se usarán los siguientes materiales:
+- Git
+- Terminal de comandos ***(Git Bash y Terminal de Windows)***
+- Editor de código **(Visual Studio Code)**
+- Cuenta de GitHub
+
+## **1. Instalación y documentación de Git**
 **Para Windows y OSX:** Para instalar Git en tu computadora da [clic aqui](https://git-scm.com/).
 - **Para Windows:** Automáticamente se instala el Git Bash
 - **Para OSX:** Se abre la terminal y se asegura la version de git que se instaló.
@@ -14,7 +28,7 @@
 
 ***Nota:*** Para asegurarnos de la versión instalada en nuestra computadora se utiliza el comando `git --version`
 
-## **1. Introducción**
+## **2. Introducción**
 
 ### ¿Qué es Git?
 
@@ -50,7 +64,10 @@ Dentro de un control de versiones se tienen los:
 
 - Dificultad con archivos binarios
 
-## **2. Primeros pasos en Git**
+***Nota:*** Un archivo binario es un archivo informático que contiene información de cualquier tipo codificada en binario para el propósito de almacenamiento y procesamiento en ordenadores. 
 
+Por otro lado, los archivos de texto plano son aquellos que contienen solamente información almacenada en formato **ASCII**.
 
-## **Link Kahoots**
+## Referencias
+
+[Referencias en CSV](referencias/ref.csv)
