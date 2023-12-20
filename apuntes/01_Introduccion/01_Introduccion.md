@@ -7,6 +7,8 @@
 [2. Introduccion](#2-introducción)  
 [3. Referencias](#referencias) 
 
+[Siguiente subtema](../02_Comandos-basicos/02_Comandos-basicos.md)
+
 ### **Objetivos**
 
 - Aprenderás a gestionar las versiones de un proyecto de software a través de los comandos esenciales de git.
