@@ -65,3 +65,43 @@ En ***Git***, existen tres estados principales en los que se pueden encontrar tu
 ---
 
 ## Comando ***add***, **status** y **commit**.
+### **Ejercicio incluido**
+
+Supongamos que inicializamos el repositorio de ***Git*** en algún directorio. Ahora, dentro de este directorio creamos archivos nuevos (***texto, python, c, cpp, etc***). 
+
+### **add**
+
+Para que los archivos creados puedan guardarse en tu base de datos de forma segura, es necesario hacer un ***commit***, pero para hacer un commit primero debemos agregar estos archivos al **stage** de la siguiente forma:
+
+- ***Para un solo archivo***
+
+```bash
+git add "Nombre del archivo"
+```
+
+- ***Para varios archivos***
+```bash
+git add "Archivo1" "Archivo2" "Archivo3"
+```
+
+- **Para añadir todos los archivos modificados del directorio**
+```bash
+git add .
+```
+***Nota:*** Tambien puedes agregar carpetas, no solamente archivos. 
+
+
+### ***git status***
+
+El comando `git status` en ***Git*** te proporciona información sobre el estado actual de tu repositorio. Al ejecutar ***git status***, obtendrás detalles sobre los archivos que han sido modificados, los archivos que han sido agregados al área de preparación (***staging area***), y cualquier archivo que aún no haya sido rastreado por **Git**.
+
+Así que, una vez agregados los archivos al ***stage*** podemos ver el estado de nuestro repositorio usando el comando `git status`.
+
+***Ejemplo antes de hacer `git add .`***
+
+![Ejemplo git status](img/status1.png)  
+Imagen. Ejemplo en **git bash**
+
+***Ejemplo despues de hacer `git add .`***
+![Alt text](img/status2.png)
+Imagen. Ejemplo en **git bash**
