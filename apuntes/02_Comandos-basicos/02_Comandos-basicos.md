@@ -7,7 +7,10 @@
 [Configuración de ***Git***](#configuración-de-git)  
 [Inicializar un repositorio local](#inicializar-un-repositorio-local)  
 [Directorio ***.git***](#directorio-git)  
-[Los tres estados (staged, modified, comitted)](#los-tres-estados-staged-modified-comitted)  
+[Los tres estados (***staged, modified, comitted***)](#los-tres-estados-staged-modified-comitted)  
+[git **add**](#git-add)  
+[git **status**](#git-status)  
+[git **commit**](#git-commit)  
 
 ## Configuración de GIT
 
@@ -69,7 +72,7 @@ En ***Git***, existen tres estados principales en los que se pueden encontrar tu
 
 Supongamos que inicializamos el repositorio de ***Git*** en algún directorio. Ahora, dentro de este directorio creamos archivos nuevos (***texto, python, c, cpp, etc***). 
 
-### **add**
+### **git add**
 
 Para que los archivos creados puedan guardarse en tu base de datos de forma segura, es necesario hacer un ***commit***, pero para hacer un commit primero debemos agregar estos archivos al **stage** de la siguiente forma:
 
@@ -103,5 +106,25 @@ Así que, una vez agregados los archivos al ***stage*** podemos ver el estado de
 Imagen. Ejemplo en **git bash**
 
 ***Ejemplo despues de hacer `git add .`***
-![Alt text](img/status2.png)
+
+![Ejemplo git status](img/status2.png)  
 Imagen. Ejemplo en **git bash**
+
+
+Si bien es cierto que la salida de ***git status*** es bastante explícita, también es verdad que es muy extensa. Por esta razón, **Git** ofrece una opción para obtener un estado abreviado, de manera que puedas ver tus cambios de una forma más compacta. Si ejecutas `git status -s` o `git status --short`, obtendrás una salida mucho más simplificada.
+
+![ejemplo status abreviado](img/status-abreviado.png)  
+Imagen. Ejemplo en **git bash**
+
+### **git commit**
+
+Cuando has agregado los archivos/carpetas al **stage** y te has asegurado que tus cambios están listos para guardarlos de forma segura a tu base de datos, entonces puedes ejecutar el comando `git commit`.
+
+Cuando realizas un ***commit*** en ***Git***, se espera que proporciones un mensaje que describa los cambios que estás confirmando, esto se hace de la siguiente forma:
+
+```bash
+git commit -m "Mensaje descriptivo"
+```
+
+**Nota:** El argumento adicional `-m` viene de '***message***'.
+
