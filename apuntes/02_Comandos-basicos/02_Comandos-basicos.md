@@ -31,7 +31,7 @@ git config --global user.name "Aldo Santiago"
 ```
 - **Email:**
 ```bash
-git config --global user.name "correo@dominio.com"
+git config --global user.email "correo@dominio.com"
 ```
 
 Puedes comprobar la configuración usando `git config user.name` o la variable de configuración que desees.
